@@ -1,12 +1,83 @@
 *.class
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
+*.DS_Store
 # Package Files #
 *.jar
 *.war
 *.ear
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+
+#Idea Files#
+*.iml
+*.ipr
+*.iws
+.idea/
+
+#Netbeans Files
+nbproject
+
+#ZendFramework Files
+INSTALL.txt
+LICENSE.txt
+README.txt
+demos/
+extras/documentation
+library/
+*.config/
+appliction/captcha
+
+#Yii File
+assets/
+protected/runtime/
+themes/classic/views/
+
+
+# PDT-specific
+.buildpath
+#Maven Files#
+*/target/
+target/
+pom.xml.*
+release.properties
+
+
+# Bro PHP
+runtime/*
+public/uploads
+public/ckeditor
+
+
+# Sublime plugin files #
+.phpintel
+
+# composer files #
+/vendor
+**/**/vendor
+composer.lock
+
+.phpintel
+
+/**/**/*.compiled
+public/static/*
+
+.DS_Store
+**/**/.DS_Store
+
